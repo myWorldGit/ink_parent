@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: gateway-server
+      label: master
+      profile: dev
+#      routes:
+#        - id: userId
+#          uri: lb://USER-SERVICE
+#          predicates:
+#            - Path=/user/**
+#          filters:
+#            - StripPrefix=1
+#        - id: goodsId
+#          uri: lb://GOODS-SERVICE
+#          predicates:
+#            - Path=/goods/**
+#          filters:
+#            - StripPrefix=1

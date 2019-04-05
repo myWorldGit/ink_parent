@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/myWorldGit/config.git
+          search-paths:
+            - general
+            - eureka
+            - tools
+            - zuul
+
+#          username: myworld2github
+#          password: piao520
+server:
+  port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:11111/eureka/

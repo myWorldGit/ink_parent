@@ -1,0 +1,15 @@
+package com.ink.deidei;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+
+@SpringBootApplication
+@EnableEurekaClient
+@EnableHystrixDashboard
+public class DashboardForHystrixServerApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DashboardForHystrixServerApplication.class,args);
+    }
+}

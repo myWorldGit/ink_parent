@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../ink_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/common-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/common-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/a-zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/dashboard-hystrix-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/goods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ink_parent/ink_manager_parent/user-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

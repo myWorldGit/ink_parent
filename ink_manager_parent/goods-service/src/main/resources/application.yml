@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: general-server
+      label: master
+      profile: dev
+  application:
+    name: goods-service
+
